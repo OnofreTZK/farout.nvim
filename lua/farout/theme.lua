@@ -720,7 +720,7 @@ function M.setup()
 
     NoiceCompletionItemKindDefault = { fg = c.fg_dark, bg = c.none },
 
-    TreesitterContext = { bg = util.darken(c.fg_gutter, 0.8) },
+    TreesitterContext = { bg = util.darken(c.fg_gutter, 0.2) },
     Hlargs = { fg = c.yellow },
     -- TreesitterContext = { bg = util.darken(c.bg_visual, 0.4) },
   }
