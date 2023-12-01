@@ -1,6 +1,6 @@
 # FarOut
 
-FarOut colorscheme for NeoVim.
+FarOut colorscheme for NeoVim. Adapted from [tokyonight.nvim](https://github.com/folke/tokyonight.nvim).
 
 ## ✨ Features
 
@@ -15,6 +15,7 @@ FarOut colorscheme for NeoVim.
 ### 🍭 Extras
 
 <!-- extras:start -->
+
 - [Alacritty](https://github.com/alacritty/alacritty) ([alacritty](extras/alacritty))
 - [Delta](https://github.com/dandavison/delta) ([delta](extras/delta))
 - [Dunst](https://dunst-project.org/) ([dunst](extras/dunst))
