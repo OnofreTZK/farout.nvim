@@ -2022,7 +2022,7 @@ local highlights = {
   },
   Search = {
     bg = "#3e68d7",
-    fg = "#c8d3f5"
+    fg = "#2f334d"
   },
   SignColumn = {
     bg = "#222436",

@@ -43,10 +43,7 @@ M.default = {
   },
 }
 
-M.night = {
-  bg = "#1a1b26",
-  bg_dark = "#16161e",
-}
+M.night = {}
 M.day = M.night
 
 M.moon = function()

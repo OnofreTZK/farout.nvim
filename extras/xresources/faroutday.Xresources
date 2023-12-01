@@ -1,9 +1,9 @@
 ! FarOut colors for Xresources
 
-*background: #e1e2e7
+*background: #f9f6f6
 *foreground: #6c6252
 
-*color0: #e9e9ed
+*color0: #faf8f8
 *color1: #db5234
 *color2: #715e4b
 *color3: #9b6635
