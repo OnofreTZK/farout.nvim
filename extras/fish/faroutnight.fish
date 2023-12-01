@@ -1,4 +1,4 @@
-    # TokyoNight Color Palette
+    # FarOut Color Palette
     set -l foreground E0CCAE
     set -l selection 6b442f
     set -l comment 6B4035

@@ -872,19 +872,19 @@ local highlights = {
     fg = "#444a73"
   },
   DiagnosticVirtualTextError = {
-    bg = "#322639",
+    bg = "#2a2537",
     fg = "#c53b53"
   },
   DiagnosticVirtualTextHint = {
-    bg = "#273644",
+    bg = "#242d3d",
     fg = "#4fd6be"
   },
   DiagnosticVirtualTextInfo = {
-    bg = "#203346",
+    bg = "#212b3e",
     fg = "#0db9d7"
   },
   DiagnosticVirtualTextWarn = {
-    bg = "#38343d",
+    bg = "#2d2c39",
     fg = "#ffc777"
   },
   DiagnosticWarn = {

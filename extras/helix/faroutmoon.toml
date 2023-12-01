@@ -80,7 +80,7 @@ type = { fg = "#65bcff" }
 "ui.text.focus" = { bg = "#2d3f76" }
 "ui.text.inactive" = { fg = "#636da6", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#1e2030", fg = "#c8d3f5" }
-"ui.virtual.inlay-hint" = { bg = "#273644", fg = "#4fd6be" }
+"ui.virtual.inlay-hint" = { bg = "#242d3d", fg = "#4fd6be" }
 "ui.window" = { fg = "#1b1d2b", modifiers = ["bold"] }
 variable = { fg = "#c8d3f5" }
 "variable.builtin" = { fg = "#ff757f" }

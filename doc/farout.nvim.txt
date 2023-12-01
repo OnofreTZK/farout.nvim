@@ -3,29 +3,29 @@ farout.nvim.txt*     For Neovim >= 0.8.0     Last change: 2023 October 25
 ==============================================================================
 Table of Contents                          *farout.nvim-table-of-contents*
 
-1. FarOut                                   |farout.nvim-tokyo-night|
-  - Features                            |farout.nvim-tokyo-night-features|
-  - Requirements                    |farout.nvim-tokyo-night-requirements|
-  - Installation                    |farout.nvim-tokyo-night-installation|
-  - Usage                                  |farout.nvim-tokyo-night-usage|
-  - Configuration                  |farout.nvim-tokyo-night-configuration|
-  - Overriding Colors & Highlight Groups|farout.nvim-tokyo-night-overriding-colors-&-highlight-groups|
-  - Extras                                |farout.nvim-tokyo-night-extras|
-  - Contributing                    |farout.nvim-tokyo-night-contributing|
+1. FarOut                                   |farout.nvim-far-out|
+  - Features                            |farout.nvim-far-out-features|
+  - Requirements                    |farout.nvim-far-out-requirements|
+  - Installation                    |farout.nvim-far-out-installation|
+  - Usage                                  |farout.nvim-far-out-usage|
+  - Configuration                  |farout.nvim-far-out-configuration|
+  - Overriding Colors & Highlight Groups|farout.nvim-far-out-overriding-colors-&-highlight-groups|
+  - Extras                                |farout.nvim-far-out-extras|
+  - Contributing                    |farout.nvim-far-out-contributing|
 
 ==============================================================================
-1. Tokyo Night                                   *farout.nvim-tokyo-night*
+1. FarOut                                   *farout.nvim-far-out*
 
 A dark and light Neovim <https://github.com/neovim/neovim> theme written in Lua
 <https://www.lua.org> ported from the Visual Studio Code FarOut
-<https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
+<https://github.com/enkia/far-out-vscode-theme> theme. Includes
 |farout.nvim-extra| themes for Kitty
 <https://sw.kovidgoyal.net/kitty/conf.html>, Alacritty
 <https://github.com/alacritty/alacritty>, iTerm <https://iterm2.com/> and Fish
 <https://fishshell.com/docs/current/index.html>.
 
 
-FEATURES                                *farout.nvim-tokyo-night-features*
+FEATURES                                *farout.nvim-far-out-features*
 
 - Supports the latest Neovim <https://github.com/neovim/neovim>
     0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0> features.
@@ -61,13 +61,13 @@ EXTRAS ~
 - Zathura <https://pwmt.org/projects/zathura/> (zathura <extras/zathura>)
 
 
-REQUIREMENTS                        *farout.nvim-tokyo-night-requirements*
+REQUIREMENTS                        *farout.nvim-far-out-requirements*
 
 - Neovim <https://github.com/neovim/neovim> >=
     0.7.2 <https://github.com/neovim/neovim/releases/tag/v0.7.2>
 
 
-INSTALLATION                        *farout.nvim-tokyo-night-installation*
+INSTALLATION                        *farout.nvim-far-out-installation*
 
 Install the theme with your preferred package manager, such as folke/lazy.nvim
 <https://github.com/folke/lazy.nvim>
@@ -82,7 +82,7 @@ Install the theme with your preferred package manager, such as folke/lazy.nvim
 <
 
 
-USAGE                                      *farout.nvim-tokyo-night-usage*
+USAGE                                      *farout.nvim-far-out-usage*
 
 
 VIM SCRIPT ~
@@ -142,7 +142,7 @@ LIGHTLINE
 <
 
 
-CONFIGURATION                      *farout.nvim-tokyo-night-configuration*
+CONFIGURATION                      *farout.nvim-far-out-configuration*
 
 
   Set the configuration **BEFORE** loading the color scheme with `colorscheme
@@ -195,7 +195,7 @@ unless `setup` is explicitly called.
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS*farout.nvim-tokyo-night-overriding-colors-&-highlight-groups*
+OVERRIDING COLORS & HIGHLIGHT GROUPS*farout.nvim-far-out-overriding-colors-&-highlight-groups*
 
 How the highlight groups are calculated:
 
@@ -205,9 +205,8 @@ override them using `config.on_colors(colors)`.
 3. `config.on_highlights(highlights, colors)` can be used to override highlight
 groups.
 
-For default values of `colors` and `highlights`, please consult the storm
-<extras/lua/tokyonight_storm.lua>, moon <extras/lua/tokyonight_moon.lua>, night
-<extras/lua/tokyonight_night.lua>, and day <extras/lua/tokyonight_day.lua>
+For default values of `colors` and `highlights`, please consult the night
+<extras/lua/farout_night.lua>, and day <extras/lua/farout_day.lua>
 themes.
 
 
@@ -282,7 +281,7 @@ To have undercurls show up and in color, add the following to your Tmux
 <
 
 
-EXTRAS                                    *farout.nvim-tokyo-night-extras*
+EXTRAS                                    *farout.nvim-far-out-extras*
 
 Extra color configs for Kitty <https://sw.kovidgoyal.net/kitty/conf.html>,
 Alacritty <https://github.com/alacritty/alacritty>, Fish
@@ -303,7 +302,7 @@ You can easily use the color palette for other plugins inside your Neovim
 <
 
 
-CONTRIBUTING                        *farout.nvim-tokyo-night-contributing*
+CONTRIBUTING                        *farout.nvim-far-out-contributing*
 
 Pull requests are welcome.
 

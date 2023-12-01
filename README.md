@@ -15,7 +15,6 @@ FarOut colorscheme for NeoVim. Adapted from [tokyonight.nvim](https://github.com
 ### 🍭 Extras
 
 <!-- extras:start -->
-
 - [Alacritty](https://github.com/alacritty/alacritty) ([alacritty](extras/alacritty))
 - [Delta](https://github.com/dandavison/delta) ([delta](extras/delta))
 - [Dunst](https://dunst-project.org/) ([dunst](extras/dunst))
@@ -66,10 +65,8 @@ Install the theme with your preferred package manager, such as
 colorscheme farout
 
 " There are also colorschemes for the different styles.
-" colorscheme farout-night
-" colorscheme farout-storm
-" colorscheme farout-day
-" colorscheme farout-moon
+colorscheme farout-night
+colorscheme farout-day
 ```
 
 ### [Lua](https://www.lua.org)
@@ -115,8 +112,7 @@ let g:lightline = {'colorscheme': 'farout'}
 
 > ❗️ Set the configuration **BEFORE** loading the color scheme with `colorscheme farout`.
 
-The theme offers four styles: [storm](#storm), [moon](#moon), [night](#night),
-and [day](#day).
+The theme offers two styles: [night](#night) and [day](#day).
 
 The [day](#day) style is used when `{ style = "day" }` is passed to
 `setup(options)` or when `vim.o.background = "light"`.
@@ -128,7 +124,7 @@ unless `setup` is explicitly called.
 require("farout").setup({
   -- your configuration comes here
   -- or leave it empty to use the default settings
-  style = "storm", -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
+  style = "night", -- The theme comes in two styles: `night` and `day`
   light_style = "day", -- The theme is used when the background is set to light
   transparent = false, -- Enable this to disable setting the background color
   terminal_colors = true, -- Configure the colors used when opening a `:terminal` in [Neovim](https://github.com/neovim/neovim)
@@ -173,10 +169,8 @@ How the highlight groups are calculated:
    groups.
 
 For default values of `colors` and `highlights`, please consult the
-[storm](extras/lua/tokyonight_storm.lua),
-[moon](extras/lua/tokyonight_moon.lua),
-[night](extras/lua/tokyonight_night.lua), and
-[day](extras/lua/tokyonight_day.lua) themes.
+[night](extras/lua/farout_night.lua), and
+[day](extras/lua/farout_day.lua) themes.
 
 ### Settings and color alteration demonstration
 

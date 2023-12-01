@@ -46,7 +46,7 @@ M.template = [[
 	<key>name</key>
 	<string>FarOut</string>
 	<key>semanticClass</key>
-	<string>enki.theme.tokyo</string>
+	<string>enki.theme.farout</string>
 	<key>settings</key>
 	<array>
 		<dict>
