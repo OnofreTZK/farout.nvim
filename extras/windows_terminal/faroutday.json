@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#e1e2e7",
+    "black": "#e9e9ed",
+    "blue": "#c77544",
+    "brightBlack": "#d1c4c2",
+    "brightBlue": "#c77544",
+    "brightCyan": "#91654c",
+    "brightGreen": "#715e4b",
+    "brightPurple": "#876060",
+    "brightRed": "#db5234",
+    "brightWhite": "#6c6252",
+    "brightYellow": "#9b6635",
+    "cursorColor": "#6c6252",
+    "cyan": "#91654c",
+    "foreground": "#6c6252",
+    "green": "#715e4b",
+    "name": "FarOut Day",
+    "purple": "#c37f87",
+    "red": "#db5234",
+    "selectionBackground": "#c48c75",
+    "white": "#9b6635",
+    "yellow": "#9b6635"
+}

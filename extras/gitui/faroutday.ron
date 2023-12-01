@@ -1,0 +1,23 @@
+(
+  selected_tab: Rgb(195,127,135), // magenta #c37f87
+  command_fg: Rgb(215,150,135), // comment #d79687
+  selection_bg: Rgb(234,225,224), // bg_highlight #eae1e0
+  selection_fg: Rgb(145,101,76), // cyan #91654c
+  cmdbar_bg: Rgb(225,226,231), // bg #e1e2e7
+  cmdbar_extra_lines_bg: Rgb(225,226,231), // bg #e1e2e7
+  disabled_fg: Rgb(215,150,135), // comment #d79687
+  diff_line_add: Rgb(113,94,75), // green #715e4b
+  diff_line_delete: Rgb(219,82,52), // red #db5234
+  diff_file_added: Rgb(136,117,98), // green1 #887562
+  diff_file_removed: Rgb(161,72,52), // red1 #a14834
+  diff_file_moved: Rgb(155,97,105), // magenta2 #9b6169
+  diff_file_modified: Rgb(155,102,53), // yellow #9b6635
+  commit_hash: Rgb(195,127,135), // magenta #c37f87
+  commit_time: Rgb(162,121,97), // teal #a27961
+  commit_author: Rgb(113,94,75), // green #715e4b
+  danger_fg: Rgb(219,82,52), // red #db5234
+  push_gauge_bg: Rgb(225,226,231), // bg #e1e2e7
+  push_gauge_fg: Rgb(108,98,82), // fg #6c6252
+  tag_fg: Rgb(155,97,105), // magenta2 #9b6169
+  branch_fg: Rgb(155,102,53), // yellow #9b6635
+)

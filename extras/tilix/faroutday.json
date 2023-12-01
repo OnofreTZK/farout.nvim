@@ -1,0 +1,26 @@
+{
+    "name": "FarOut Day",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#6c6252",
+    "background-color": "#e1e2e7",
+    "palette": [
+        "#e9e9ed",
+        "#db5234",
+        "#715e4b",
+        "#9b6635",
+        "#c77544",
+        "#c37f87",
+        "#91654c",
+        "#9b6635",
+        "#d1c4c2",
+        "#db5234",
+        "#715e4b",
+        "#9b6635",
+        "#c77544",
+        "#c37f87",
+        "#91654c",
+        "#6c6252"
+    ]
+}
+  

@@ -1,0 +1,17 @@
+# TokyoNight colors for dunst
+# For more configuraion options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#16161e"
+    foreground = "#E0CCAE"
+    frame_color = "#E0CCAE"
+
+[urgency_normal]
+    background = "#1a1b26"
+    foreground = "#E0CCAE"
+    frame_color = "#E0CCAE"
+
+[urgency_critical]
+    background = "#241816"
+    foreground = "#df674c"
+    frame_color = "#df674c"

@@ -1,0 +1,34 @@
+# FarOut Alacritty Colors
+colors:
+  # Default colors
+  primary:
+    background: '0xe1e2e7'
+    foreground: '0x6c6252'
+
+  # Normal colors
+  normal:
+    black:   '0xe9e9ed'
+    red:     '0xdb5234'
+    green:   '0x715e4b'
+    yellow:  '0x9b6635'
+    blue:    '0xc77544'
+    magenta: '0xc37f87'
+    cyan:    '0x91654c'
+    white:   '0x9b6635'
+
+  # Bright colors
+  bright:
+    black:   '0xd1c4c2'
+    red:     '0xdb5234'
+    green:   '0x715e4b'
+    yellow:  '0x9b6635'
+    blue:    '0xc77544'
+    magenta: '0xc37f87'
+    cyan:    '0x91654c'
+    white:   '0x6c6252'
+
+  indexed_colors:
+    - { index: 16, color: '0xb15c00' }
+    - { index: 17, color: '0xa14834' }
+    
+  

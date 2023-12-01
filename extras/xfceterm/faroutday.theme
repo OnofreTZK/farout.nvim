@@ -1,0 +1,9 @@
+[Scheme]
+Name=FarOut Colors
+ColorBackground=#e1e2e7
+ColorForeground=#6c6252
+
+ColorSelectionBackground=#c48c75
+ColorSelection=#6c6252
+
+ColorPalette=#e9e9ed;#db5234;#715e4b;#9b6635;#c77544;#c37f87;#91654c;#9b6635;#d1c4c2;#db5234;#715e4b;#9b6635;#c77544;#c37f87;#91654c;#6c6252
