@@ -52,7 +52,7 @@ label = { fg = "#c77544" }
 "markup.raw.block" = { fg = "#a27961" }
 "markup.raw.inline" = { bg = "#d1c4c2", fg = "#c77544" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-namespace = { fg = "#91654c" }
+namespace = { fg = "#c37f87" }
 operator = { fg = "#91654c" }
 special = { fg = "#db5234" }
 string = { fg = "#715e4b" }
@@ -144,5 +144,6 @@ red = "#db5234"
 red1 = "#a14834"
 teal = "#a27961"
 terminal_black = "#d1c4c2"
+todo = "#c77544"
 warning = "#9b6635"
 yellow = "#9b6635"

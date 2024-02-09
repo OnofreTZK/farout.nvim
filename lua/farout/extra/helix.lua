@@ -37,7 +37,7 @@ function M.generate(colors)
     },
     string = {
       "String",
-      regexp = "@string.regex",
+      regexp = "@string.regexp",
       special = {
         "@string.special",
         path = nil,
@@ -57,10 +57,10 @@ function M.generate(colors)
     variable = {
       "@variable",
       builtin = "@variable.builtin",
-      parameter = "@parameter",
+      parameter = "@variable.parameter",
       other = {
         nil,
-        member = "@field",
+        member = "@variable.member",
       },
     },
     label = "@label",
@@ -137,7 +137,7 @@ function M.generate(colors)
       quote = nil,
       raw = {
         "markdownCode",
-        inline = "@text.literal.markdown_inline",
+        inline = "@markup.raw.markdown_inline",
         block = "markdownCodeBlock",
         -- UI --
         completion = nil,
