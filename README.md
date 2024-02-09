@@ -2,6 +2,10 @@
 
 FarOut colorscheme for NeoVim. Adapted from [tokyonight.nvim](https://github.com/folke/tokyonight.nvim).
 
+Inspired by [fcpg/vim-farout](https://github.com/fcpg/vim-farout).
+
+<img width="1440" alt="Example screenshot of two-paned neovim with farout colorscheme" src="https://github.com/thallada/farout.nvim/assets/1505923/dc6cd185-8d06-4198-a152-b82dbd5d0268">
+
 ## ✨ Features
 
 - Supports the latest [Neovim](https://github.com/neovim/neovim)
@@ -15,6 +19,7 @@ FarOut colorscheme for NeoVim. Adapted from [tokyonight.nvim](https://github.com
 ### 🍭 Extras
 
 <!-- extras:start -->
+
 - [Alacritty](https://github.com/alacritty/alacritty) ([alacritty](extras/alacritty))
 - [Delta](https://github.com/dandavison/delta) ([delta](extras/delta))
 - [Dunst](https://dunst-project.org/) ([dunst](extras/dunst))
