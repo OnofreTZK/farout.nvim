@@ -100,34 +100,34 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.orange }, -- (preferred) any constant
+    Constant = { fg = c.pumpkin_orange }, -- (preferred) any constant
     String = { fg = c.green }, --   a string constant: "this is a string"
     Character = { fg = c.green }, --  a character constant: 'c', '\n'
-    -- Number        = { }, --   a number constant: 234, 0xff
-    -- Boolean       = { }, --  a boolean constant: TRUE, false
-    -- Float         = { }, --    a floating point constant: 2.3e10
+    Number        = { fg = c.hot_pink }, --   a number constant: 234, 0xff
+    Boolean       = { fg = c.light_pink }, --  a boolean constant: TRUE, false
+    Float         = { fg = c.hot_pink }, --    a floating point constant: 2.3e10
 
     Identifier = { fg = c.magenta, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.blue, style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.magenta }, -- (preferred) any statement
-    -- Conditional   = { }, --  if, then, else, endif, switch, etc.
-    -- Repeat        = { }, --   for, do, while, etc.
-    -- Label         = { }, --    case, default, etc.
+    Conditional   = { fg = c.crimson }, --  if, then, else, endif, switch, etc.
+    Repeat        = { fg = c.crimson }, --   for, do, while, etc.
+    Label         = { fg = c.crimson }, --    case, default, etc.
     Operator = { fg = c.blue5 }, -- "sizeof", "+", "*", etc.
-    Keyword = { fg = c.cyan, style = options.styles.keywords }, --  any other keyword
-    -- Exception     = { }, --  try, catch, throw
+    Keyword = { fg = c.yellow }, --  any other keyword
+    Exception     = { fg = green }, --  try, catch, throw
 
-    PreProc = { fg = c.cyan }, -- (preferred) generic Preprocessor
-    -- Include       = { }, --  preprocessor #include
-    -- Define        = { }, --   preprocessor #define
-    -- Macro         = { }, --    same as Define
-    -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
+    PreProc = { fg = c.red_purple }, -- (preferred) generic Preprocessor
+    Include       = { fg = c.red_purple }, --  preprocessor #include
+    Define        = { fg = c.hot_pink }, --   preprocessor #define
+    Macro         = { fg = c.hot_pink }, --    same as Define
+    PreCondit     = { fg = c.hot_pink }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.blue1 }, -- (preferred) int, long, char, etc.
-    -- StorageClass  = { }, -- static, register, volatile, etc.
-    -- Structure     = { }, --  struct, union, enum, etc.
-    -- Typedef       = { }, --  A typedef
+    StorageClass  = { fg = c.hot_pink }, -- static, register, volatile, etc.
+    Structure     = { fg = c.hot_pink }, --  struct, union, enum, etc.
+    Typedef       = { fg = c.hot_pink }, --  A typedef
 
     Special = { fg = c.blue1 }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
@@ -206,6 +206,9 @@ function M.setup()
     ALEWarningSign = { fg = c.warning },
 
     DapStoppedLine = { bg = util.darken(c.warning, 0.1) }, -- Used for "Warning" diagnostic virtual text
+
+    FunctionalOperators = { fg = c.terracota },
+    DerivingWord = { fg = c.hot_pink }
 
     -- These groups are for the Neovim tree-sitter highlights.
     ["@annotation"] = { link = "PreProc" },

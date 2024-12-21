@@ -33,8 +33,17 @@ M.default = {
   green1 = "#c4a98f",
   green2 = "#ceb399",
   teal = "#c69478",
+  terracota = "#E3735E",
   red = "#bf472c",
   red1 = "#df674c",
+  crimson = "#DC143C",
+  raspberry = "#E30B5C",
+  ruby_red = "#E0115F",
+  rose_red = "#C21E56",
+  red_purple = "#953553",
+  hot_pink = "#FF69B4",
+  light_pink = "#FFB6C1",
+  pumpkin_orange = "#FF7518",
   git = { change = "#66292F", add = "#A4895C", delete = "#BF472C" },
   gitSigns = {
     add = "#CAAF82",
@@ -142,7 +151,7 @@ function M.setup(opts)
   -- colors.fg_float = config.options.styles.floats == "dark" and colors.fg_dark or colors.fg
   colors.fg_float = colors.fg
 
-  colors.error = colors.red1
+  colors.error = colors.raspberry
   colors.todo = colors.blue
   colors.warning = colors.yellow
   colors.info = colors.blue2
