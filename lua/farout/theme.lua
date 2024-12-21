@@ -208,7 +208,7 @@ function M.setup()
     DapStoppedLine = { bg = util.darken(c.warning, 0.1) }, -- Used for "Warning" diagnostic virtual text
 
     FunctionalOperators = { fg = c.terracota },
-    DerivingWord = { fg = c.hot_pink }
+    DerivingWord = { fg = c.hot_pink },
 
     -- These groups are for the Neovim tree-sitter highlights.
     ["@annotation"] = { link = "PreProc" },
