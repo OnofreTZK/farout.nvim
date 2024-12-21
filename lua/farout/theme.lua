@@ -111,15 +111,15 @@ function M.setup()
     Function = { fg = c.blue, style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.magenta }, -- (preferred) any statement
-    Conditional   = { fg = c.crimson }, --  if, then, else, endif, switch, etc.
-    Repeat        = { fg = c.crimson }, --   for, do, while, etc.
-    Label         = { fg = c.crimson }, --    case, default, etc.
+    Conditional   = { fg = c.red_purple }, --  if, then, else, endif, switch, etc.
+    Repeat        = { fg = c.red_purple }, --   for, do, while, etc.
+    Label         = { fg = c.red_purple }, --    case, default, etc.
     Operator = { fg = c.blue5 }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.yellow }, --  any other keyword
-    Exception     = { fg = green }, --  try, catch, throw
+    Exception     = { fg = c.raspberry }, --  try, catch, throw
 
-    PreProc = { fg = c.red_purple }, -- (preferred) generic Preprocessor
-    Include       = { fg = c.red_purple }, --  preprocessor #include
+    PreProc = { fg = c.orange }, -- (preferred) generic Preprocessor
+    Include       = { fg = c.red_orange }, --  preprocessor #include
     Define        = { fg = c.hot_pink }, --   preprocessor #define
     Macro         = { fg = c.hot_pink }, --    same as Define
     PreCondit     = { fg = c.hot_pink }, --  preprocessor #if, #else, #endif, etc.
@@ -229,7 +229,7 @@ function M.setup()
     ["@function.builtin"] = { link = "Special" },
     ["@function.call"] = { link = "@function" },
     ["@function.macro"] = { link = "Macro" },
-    ["@keyword.import"] = { link = "Include" },
+    ["@keyword.import"] = { fg = c.goldenrod },
     ["@keyword.coroutine"] = { link = "@keyword" },
     ["@keyword.operator"] = { link = "@operator" },
     ["@keyword.return"] = { link = "@keyword" },
@@ -291,8 +291,8 @@ function M.setup()
     ["@variable.parameter.builtin"] = { fg = util.lighten(c.yellow, 0.8) }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
     --- Keywords
-    ["@keyword"] = { fg = c.purple, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
-    ["@keyword.function"] = { fg = c.magenta, style = options.styles.functions }, -- For keywords used to define a fuction.
+    ["@keyword"] = { fg = c.smoke }, -- For keywords that don't fall in previous categories.
+    ["@keyword.function"] = { fg = c.magenta }, -- For keywords used to define a fuction.
 
     ["@label"] = { fg = c.blue }, -- For labels: `label:` in C and `:label:` in Lua.
 
